@@ -1,9 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Green Queen
+A web application built to inspire healthy savings habits
 
 ## Available Scripts
-
-In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.<br>
@@ -12,57 +10,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+## Inspiration
+Many college students do not have are unbanked and/or do not have a savings account for many reasons- they think they're too young, the terms and information are hard to understand, or numerous myths. In general, people tend to have little to nothing in savings. With this in mind, we aim to inspire students and people and encourage them to deposit money into savings weekly/monthly.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What it does
+Our application is built with the hopes of incentivizing our users to consistently deposit money into their savings. The user is able to choose and transfer money from their checkings accounts to their savings, and watch their progress toward reaching a goal for their savings accounts. We took inspiration from both two online applications to motivate people, especially college students, to develop healthy savings habits and reach their goal through (1) maintaining and the satisfaction of keeping streaks, (2) growing a digital tree, and (3) eventually planting a seed for a tree in real life once the digital tree is finished growing
 
-### `npm run build`
+## How I built it
+We utilized React in making our application a web application, and the GreenSock Animation Platform for animations. We also used NodeJS and Amazon Web Services DynamoDB for our database.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Challenges I ran into
+The (Capital One) Nessie API would occasionally cancel our API requests
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Accomplishments that I'm proud of
+We built an end to end app and we made it to the end!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What I learned
+We learned how NodeJS works, AWS DynamoDB in Javascript (instead of Java), React.js, and GreenSock Animation Platform to allow our tree to animate and grow!
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## What's next for Green Queen
+There's lots more to be built out! We've only been able to capture the proof of concept, but we hope to be more flexible and give more options to the user for setting savings goals, includig giving suggesstions for how much the user should set a goal for savings based on their income and other factors. In addition, we hope to implement a social aspect of the application in the future, to see how long the streaks are and how large their tree and forest are for a user's friends.
