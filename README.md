@@ -1,5 +1,6 @@
 # Green Queen
 A web application built to inspire healthy savings habits
+
 Capital One Software Engineering Summit Hackathon, January 2019
 
 ## Available Scripts
